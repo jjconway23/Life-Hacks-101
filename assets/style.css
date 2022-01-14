@@ -1,14 +1,22 @@
-/* Color Scheme 
+/* ------------------
+Color Scheme 
 Green : #85bb65
 Purple : #923ae6
 Grey : #979694
 silver : #C0C0C0
-Pink: #bb6585*/
-/* Fonts
+Pink: #bb6585
+---------------------*/
+
+/* -----------------------------------------
+Fonts
 font-family: 'Abril Fatface', cursive;
 font-family: 'Roboto', sans-serif;
-*/
+font-family: 'Oswald', sans-serif;
+--------------------------------------------------*/
 
+/* ----------
+Global Styles 
+--------------*/
 *, *::before, *::after {
     margin: 0;
     padding: 0;
@@ -17,19 +25,81 @@ font-family: 'Roboto', sans-serif;
 body{
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    font-size: 62.5%;
+    font-size: 18px; /*62.5%*/
     overflow-x: hidden; 
 }
+.container {
+    width: 100%;
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.flex-class{
+    display: flex;
+}
+.current-page{
+    border-bottom:1px solid black;
+}
+/* ----------------
+Typography
+-------------------- */
+.logo-text, h1, h2, h3{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+}
+.logo-text-title{
+    font-size:44px;
+}
+.cover-text, .nav-links, .nav-links a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+header .container{
+    font-size: 1.45rem;
+}
 
-/* Header Styles */
+/*-------------
+Header Styles 
+-----------------*/
 .hero-header{
     height:100vh;
     max-height: 1700px ;
-
+    position: relative;    
 }
 .hero-video{
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
+
+.navigation {
+    /* background-color: red; */
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;    
+}
+.navigation .container{
+    justify-content: space-between;
+    align-items: center;
+}
+.cover-text{
+    /* background-color: yellow; */
+
+    
+}
+.nav-flex{
+    /* background: orange; */
+}
+.nav-links a{
+    margin: 0 10px;
+}
+.nav-links a:hover,
+.nav-links a:focus{
+    color: #211D1A;
+    border-bottom:1px solid #211D1A;
+}
+
+
 
