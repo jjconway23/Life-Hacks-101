@@ -100,6 +100,68 @@ Header Styles
     color: #211D1A;
     border-bottom:1px solid #211D1A;
 }
-
-
+/*---------------- 
+Main Content
+---------------- */
+main{
+    background-color: #f8f8f8;
+}
+.main-container{
+    padding: 50px 0;;
+    position: relative;   
+    
+}
+.main-flex-parent{
+    min-height: 700px; 
+}
+.main-title{
+    position: absolute;
+    text-align: center;
+    top: 50px;
+    left: 500px;
+    font-size: 54px;
+}
+.card{
+    margin:0 auto;
+    width: 33%;
+    padding: 0 20px;
+    text-align: center;
+    /* background-color: #85bb65; */
+    color: black;
+    /* border: 1px solid white; */
+    /* border-radius: 5px; */
+}
+.card-head{
+    flex-direction: column-reverse;
+}
+.card-body{
+    flex-direction: column;
+    align-items: flex-start;
+}
+.card-head > h2{
+    margin: 20px 0;
+    text-align: center;
+}
+.card-body > p{
+    margin-bottom: 30px;
+    text-align: center;
+}
+.card-body-link{
+    padding: 10px 25px;
+    background-color: #C0C0C0;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+}
+.card-two {
+    align-self: flex-end;
+}
+.card-body .card-body-link{
+    margin: 0 auto;
+}
+.card-body-link:hover,
+.card-body-link:focus{
+    background-color: black;
+    color: #C0C0C0;
+}
 
