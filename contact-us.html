@@ -38,7 +38,42 @@
     </header>
     <!-- Header End -->
     <main>
-       <h1>Share Your Life Hacks with the World <i class="fas fa-globe-europe"></i> </h1>
+        <div class="container">
+            <h1>Share Your Life Hacks with the World <i class="fas fa-globe-europe"></i> </h1>
+            <form action="https://formdump.codeinstitute.net/" method="POST">
+                <h2>Registration</h2>
+                <div>
+                    <label for="fname">First Name</label>
+                    <input type="text" name="first-name" id="fname" placeholder="First Name" required>
+                    <label for="lname">Last Name</label>
+                    <input type="text" name="last-name" id="lname" placeholder="Last Name" required><br>
+                 </div>
+                 <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Email" required>
+                    <label for="pnumber">Phone Number</label>
+                    <input type="number" name="number" id="number" placeholder="Enter Phone Number" required><br>
+                </div>
+                <div>
+                <h3>Gender</h3>
+                    <input type="radio" name="gender" id="male" value="male" required>
+                    <label for="male">Male</label>                
+                    <input type="radio" name="gender" id="female" value="Female" required>
+                    <label for="female">Female</label>  
+                    <input type="radio" name="gender" id="chose-not-to-answer" value="Prefer Not to say" required>
+                    <label for="chose-not-to-answer">Prefer Not to Say</label>  <br>
+                </div>
+                <div>
+                <h3>Age</h3>
+                    <input type="checkbox" name="age" id="age" value="18-25" required>
+                    <input type="checkbox" name="age" id="age" value="26-35" required>
+                    <input type="checkbox" name="age" id="age" value="36-45" required>
+                    <input type="checkbox" name="age" id="age" value="45-55" required>
+                    <input type="checkbox" name="age" id="age" value="55+" required><br>
+                </div>
+                <input type="submit" value="Submit">
+            </form>
+        </div>    
     </main>
     <!-- Main End -->
     <footer>
