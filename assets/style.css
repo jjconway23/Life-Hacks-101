@@ -171,3 +171,37 @@ main{
     color: #C0C0C0;
 }
 
+/*------------------ 
+Footer Styles
+------------------ */
+footer{
+    background-color: #85bb65;
+    padding: 40px 0;
+}
+.footer-container{
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-links, footer ul{
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0 auto;
+    font-size: 24px;
+    color: #C0C0C0;
+}
+.footer-site-links{
+    width: 40%;
+    justify-content: space-between;
+}
+.footer-list{
+    width: 40%;
+    justify-content: flex-start;
+}
+.footer-list > li {
+    padding: 10px 35px;
+    width: 40%;
+}
+
+
+
+
