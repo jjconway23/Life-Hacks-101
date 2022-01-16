@@ -201,6 +201,16 @@ footer{
     padding: 10px 35px;
     width: 40%;
 }
+.footer-link{
+    /* transition: transform .2s; */
+    transition: width 2s;
+   
+}
+.footer-links:hover,
+.footer-links:focus{
+    color: black;
+    border-bottom: 1px solid black;
+}
 
 
 
