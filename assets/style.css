@@ -212,9 +212,61 @@ Contact Us Styles
 the navigation class from the 1st div with in header. This nav will be used in the rest of the html pages. 
 Also created a new class called nav-parent. Which was added to the 2nd div within the header */
 
+/*--------------
+ Nav
+ --------------- */
 .nav-parent{
     justify-content: space-between;
     align-items: center;
+}
+/* ---------------
+Form Styles
+----------------- */
+.form-page-heading{
+    padding: 30px 0;
+}
+.form-container{
+    text-align: center;
+    background-color:#85bb65 ;
+    border: solid 1px black;
+    border-radius: 10px;
+    min-height: 150vh;  
+    
+}
+.form-title{
+    padding-bottom: 17px;
+}
+.form-class{
+    flex-direction: column;
+    
+   
+      
+}
+.form-sub-container{
+    margin: 0 auto;
+
+}
+.row-one, .row-two{
+    padding: 10px 25px;    
+    margin: 0 auto;
+    text-align: left;
+}
+.radio-container, .checkbox-container{
+    width: 70%;
+    margin: 0 auto;
+    justify-content: center;
+}
+.row-three, .row-four{
+    padding: 10px 10px;
+    margin: 0 0;
+    /* border: 1px solid black; */
+}
+.form-submit-button{
+    padding: 10px 25px;
+    width: 70%;
+    margin: 15px auto 0;
+    border-radius: 4px;
+    border: 1px solid black;
 }
 
 

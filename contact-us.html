@@ -38,45 +38,71 @@
     </header>
     <!-- Header End -->
     <main>
-        <div class="container">
-            <h1>Share Your Life Hacks with the World <i class="fas fa-globe-europe"></i> </h1>
-            <form action="https://formdump.codeinstitute.net/" method="POST">
-                <h2>Registration</h2>
-                <div>
-                    <label for="fname">First Name</label>
-                    <input type="text" name="first-name" id="fname" placeholder="First Name" required>
-                    <label for="lname">Last Name</label>
-                    <input type="text" name="last-name" id="lname" placeholder="Last Name" required><br>
-                 </div>
-                 <div>
-                    <label for="email">Email</label>
-                    <input type="email" name="email" id="email" placeholder="Email" required>
-                    <label for="pnumber">Phone Number</label>
-                    <input type="number" name="number" id="number" placeholder="Enter Phone Number" required><br>
+        <div class="container form-container">
+            <h1 class="form-page-heading">Share Your Life Hacks with the World <i class="fas fa-globe-europe"></i> </h1>
+            <form action="https://formdump.codeinstitute.net/" method="POST" class="form-class flex-class">
+                <h2 class="form-title">Registration</h2>
+                <div class="flex-class form-sub-container">
+                    <div class="row-one">
+                        <label for="fname"><strong> Name:</strong></label><br>
+                        <input type="text" name="first-name" id="fname" placeholder="First Name" required>
+                    </div>  
+                    <div class="row-one">
+                        <label for="lname"><strong>Last Name:</strong></label><br>
+                        <input type="text" name="last-name" id="lname" placeholder="Last Name" required><br>
+                    </div>
+                    </div>
+                    <div class="flex-class form-sub-container">
+                        <div class="row-two">
+                            <label for="email"><strong>Email:</strong></label><br>
+                            <input type="email" name="email" id="email" placeholder="example@example.com" required>
+                        </div>
+                        <div class="row-two">
+                            <label for="pnumber"><strong>Phone Number:</strong></label><br>
+                            <input type="number" name="number" id="number" placeholder="Enter Your Number" required><br>
+                        </div>
                 </div>
-                <div>
                 <h3>Gender</h3>
-                    <input type="radio" name="gender" id="male" value="male" required>
-                    <label for="male">Male</label>                
-                    <input type="radio" name="gender" id="female" value="Female" required>
-                    <label for="female">Female</label>  
-                    <input type="radio" name="gender" id="chose-not-to-answer" value="Prefer Not to say" required>
-                    <label for="chose-not-to-answer">Prefer Not to Say</label>  <br>
+                <div class="flex-class radio-container">
+                    <div class="row-three">
+                        <input type="radio" name="gender" id="male" value="male" required>
+                        <label for="male">Male</label>   
+                    </div> 
+                    <div class="row-three">           
+                        <input type="radio" name="gender" id="female" value="Female" required>
+                        <label for="female">Female</label>
+                    </div> 
+                    <div class="row-three"> 
+                        <input type="radio" name="gender" id="chose-not-to-answer" value="Prefer Not to say" required>
+                        <label for="chose-not-to-answer">Prefer Not to Say</label>  <br>
+                    </div>     
+                        
                 </div>
-                <div>
+                
                 <h3>Age</h3>
-                    <input type="checkbox" name="age" id="18-25" value="18-25" required>
-                    <label for="18-25">18-25</label>
-                    <input type="checkbox" name="age" id="26-35" value="26-35" required>
-                    <label for="26-35">26-35</label>
-                    <input type="checkbox" name="age" id="36-45" value="36-45" required>
-                    <label for="36-45">36-45</label>
-                    <input type="checkbox" name="age" id="45-55" value="45-55" required>
-                    <label for="45-55">45-55</label>
-                    <input type="checkbox" name="age" id="55+" value="55+" required>
-                    <label for="55+">55+</label>
+                <div class="flex-class checkbox-container">
+                    <div class="row-four">
+                        <input type="checkbox" name="age" id="18-25" value="18-25" required>
+                        <label for="18-25">18-25</label>
+                    </div>    
+                    <div class="row-four">
+                        <input type="checkbox" name="age" id="26-35" value="26-35" required>
+                        <label for="26-35">26-35</label>
+                    </div>    
+                    <div class="row-four">
+                        <input type="checkbox" name="age" id="36-45" value="36-45" required>
+                        <label for="36-45">36-45</label>
+                    </div>    
+                    <div class="row-four">
+                        <input type="checkbox" name="age" id="45-55" value="45-55" required>
+                        <label for="45-55">45-55</label>
+                    </div>    
+                    <div class="row-four">
+                        <input type="checkbox" name="age" id="55+" value="55+" required>
+                        <label for="55+">55+</label>
+                    </div>    
                 </div>
-                <input type="submit" value="Submit">
+                <input type="submit" value="Submit" class="form-submit-button">
             </form>
         </div>    
     </main>
