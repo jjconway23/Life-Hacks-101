@@ -29,7 +29,7 @@
                     <ul class="nav-links flex-class">
                         <li><a href="index.html">Home</a></li>
                         <li><a href="life-hacks.html">Life Hacks</a></li>
-                        <li><a href="subscribe.html"class="current-page">Contact Us</a></li>
+                        <li><a href="subscribe.html" class="current-page">Contact Us</a></li>
                     </ul>
                 </nav>
             </div>
@@ -39,18 +39,20 @@
     <!-- Header End -->
     <main>
         <div class="container form-container">
-            <h1 class="form-page-heading">Share Your Life Hacks with the World <i class="fas fa-globe-europe"></i> </h1>
-            <form action="https://formdump.codeinstitute.net/" method="POST" class="form-class flex-class">
-                <h2 class="form-title">Registration</h2>
-                <div class="flex-class form-sub-container">
-                    <div class="row-one">
-                        <label for="fname"><strong> Name:</strong></label><br>
-                        <input type="text" name="first-name" id="fname" placeholder="First Name" required>
-                    </div>  
-                    <div class="row-one">
-                        <label for="lname"><strong>Last Name:</strong></label><br>
-                        <input type="text" name="last-name" id="lname" placeholder="Last Name" required><br>
-                    </div>
+            <div class="mini-container">
+                <h1 class="form-page-heading">Share Your Life Hacks with the World <i class="fas fa-globe-europe"></i>
+                </h1>
+                <form action="https://formdump.codeinstitute.net/" method="POST" class="form-class flex-class">
+                    <h2 class="form-title">Registration</h2>
+                    <div class="flex-class form-sub-container">
+                        <div class="row-one">
+                            <label for="fname"><strong> Name:</strong></label><br>
+                            <input type="text" name="first-name" id="fname" placeholder="First Name" required>
+                        </div>
+                        <div class="row-one">
+                            <label for="lname"><strong>Last Name:</strong></label><br>
+                            <input type="text" name="last-name" id="lname" placeholder="Last Name" required><br>
+                        </div>
                     </div>
                     <div class="flex-class form-sub-container">
                         <div class="row-two">
@@ -59,69 +61,75 @@
                         </div>
                         <div class="row-two">
                             <label for="pnumber"><strong>Phone Number:</strong></label><br>
-                            <input type="number" name="number" id="number" placeholder="Enter Your Number" required><br>
+                            <input type="text" name="number" id="number" placeholder="Enter Your Number" required><br>
                         </div>
-                </div>
-                <h3>Gender</h3>
-                <div class="flex-class radio-container">
-                    <div class="row-three">
-                        <input type="radio" name="gender" id="male" value="male" required>
-                        <label for="male">Male</label>   
-                    </div> 
-                    <div class="row-three">           
-                        <input type="radio" name="gender" id="female" value="Female" required>
-                        <label for="female">Female</label>
-                    </div> 
-                    <div class="row-three"> 
-                        <input type="radio" name="gender" id="chose-not-to-answer" value="Prefer Not to say" required>
-                        <label for="chose-not-to-answer">Prefer Not to Say</label>  <br>
-                    </div>     
-                        
-                </div>
-                
-                <h3>Age</h3>
-                <div class="flex-class checkbox-container">
-                    <div class="row-four">
-                        <input type="checkbox" name="age" id="18-25" value="18-25" required>
-                        <label for="18-25">18-25</label>
-                    </div>    
-                    <div class="row-four">
-                        <input type="checkbox" name="age" id="26-35" value="26-35" required>
-                        <label for="26-35">26-35</label>
-                    </div>    
-                    <div class="row-four">
-                        <input type="checkbox" name="age" id="36-45" value="36-45" required>
-                        <label for="36-45">36-45</label>
-                    </div>    
-                    <div class="row-four">
-                        <input type="checkbox" name="age" id="45-55" value="45-55" required>
-                        <label for="45-55">45-55</label>
-                    </div>    
-                    <div class="row-four">
-                        <input type="checkbox" name="age" id="55+" value="55+" required>
-                        <label for="55+">55+</label>
-                    </div>    
-                </div>
-                <input type="submit" value="Submit" class="form-submit-button">
+                    </div>
+                    <h2>Gender</h2>
+                    <div class="flex-class radio-container">
+                        <div class="row-three">
+                            <input type="radio" name="gender" id="male" value="male" required>
+                            <label for="male">Male</label>
+                        </div>
+                        <div class="row-three">
+                            <input type="radio" name="gender" id="female" value="Female" required>
+                            <label for="female">Female</label>
+                        </div>
+                        <div class="row-three">
+                            <input type="radio" name="gender" id="chose-not-to-answer" value="Prefer Not to say"
+                                required>
+                            <label for="chose-not-to-answer">Prefer Not to Say</label> <br>
+                        </div>
+
+                    </div>
+
+                    <h2>Age</h2>
+                    <div class="flex-class checkbox-container">
+                        <div class="row-four">
+                            <input type="checkbox" name="age" id="18-25" value="18-25" required>
+                            <label for="18-25">18-25</label>
+                        </div>
+                        <div class="row-four">
+                            <input type="checkbox" name="age" id="26-35" value="26-35" required>
+                            <label for="26-35">26-35</label>
+                        </div>
+                        <div class="row-four">
+                            <input type="checkbox" name="age" id="36-45" value="36-45" required>
+                            <label for="36-45">36-45</label>
+                        </div>
+                        <div class="row-four">
+                            <input type="checkbox" name="age" id="45-55" value="45-55" required>
+                            <label for="45-55">45-55</label>
+                        </div>
+                        <div class="row-four">
+                            <input type="checkbox" name="age" id="55+" value="55+" required>
+                            <label for="55+">55+</label>
+                        </div>
+                    </div>
+                    <input type="submit" value="Submit" class="form-submit-button">
+            </div>
             </form>
-        </div>    
+        </div>
     </main>
     <!-- Main End -->
     <footer>
         <div class=" container">
             <div class="flex-class footer-container">
-                <div class="flex-class footer-site-links" >
+                <div class="flex-class footer-site-links">
                     <p><a href="#" class="footer-links">Subscribe</a></p>
                     <p><a href="#" class="footer-links">Write Us</a></p>
                     <p><a href="#" class="footer-links">About</a></p>
                 </div>
                 <div class="social-links">
-                <ul class="flex-class footer-list">
-                    <li><a class="footer-links" href="https://facebook.com" target="_blank" rel="noopener" aria-label="Visit Our Facebook Page"><i class="fab fa-facebook"></i></a></li>
-                    <li><a class="footer-links" href="https://twitter.com/" target="_blank" rel="noopener" aria-label="Visit Our Twitter Page"><i class="fab fa-twitter"></i></a></li>
-                    <li><a class="footer-links" href="https://instagram.com" target="_blank" rel="noopener" aria-label="Visit Our Instagram Page"><i class="fab fa-instagram"></i></a></li>
-                    <li><a class="footer-links" href="https://youtube.com" target="_blank" rel="noopener" aria-label="Visit Our Youtube Page"><i class="fab fa-youtube"></i></a></li>
-                </ul>
+                    <ul class="flex-class footer-list">
+                        <li><a class="footer-links" href="https://facebook.com" target="_blank" rel="noopener"
+                                aria-label="Visit Our Facebook Page"><i class="fab fa-facebook"></i></a></li>
+                        <li><a class="footer-links" href="https://twitter.com/" target="_blank" rel="noopener"
+                                aria-label="Visit Our Twitter Page"><i class="fab fa-twitter"></i></a></li>
+                        <li><a class="footer-links" href="https://instagram.com" target="_blank" rel="noopener"
+                                aria-label="Visit Our Instagram Page"><i class="fab fa-instagram"></i></a></li>
+                        <li><a class="footer-links" href="https://youtube.com" target="_blank" rel="noopener"
+                                aria-label="Visit Our Youtube Page"><i class="fab fa-youtube"></i></a></li>
+                    </ul>
                 </div>
             </div>
         </div>
