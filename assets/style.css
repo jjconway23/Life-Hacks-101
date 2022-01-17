@@ -44,9 +44,6 @@ body {
 .current-page {
   border-bottom: 1px solid #212529;
 }
-header{
-
-}
 /* ----------------
 Typography
 -------------------- */
@@ -305,4 +302,26 @@ Form Styles
     transform: scale(1.1);
     color: #d9d9d6;
     cursor: pointer;    
+}
+/* -------------
+Life Hacks Page
+----------------- */
+.top-10-container{
+    flex-direction: column;
+    margin: 40px auto;
+}
+.top-10-header{
+    margin: 20px auto;
+}
+.top-10-heading, .top-10-date{
+    text-align: center;
+}
+.hack-row{
+    flex-direction: row;
+}
+.hack-row-first{
+    order: 
+}
+.hack-row-second{
+    order
 }
