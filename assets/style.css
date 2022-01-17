@@ -312,16 +312,39 @@ Life Hacks Page
 }
 .top-10-header{
     margin: 20px auto;
+    padding: 20px;
 }
 .top-10-heading, .top-10-date{
     text-align: center;
 }
 .hack-row{
-    flex-direction: row;
+    
+    min-height: 300px;
+    width: 100%;
+    padding: 10px 5px 10px;
+    
 }
+.hack-row-container{
+    margin: 10px;
+    padding: 10px 0;
+}
+.hacks-card-head{
+    width: 50%;
+    flex-direction: column;
+    width: auto;
+} 
 .hack-row-first{
-    order: 
+    padding: 10px 5px 10px;
 }
 .hack-row-second{
-    order
+    /* width: 40%; */
+    padding: 10px 5px 10px;
+    /* width: 50%; */
+    
 }
+.hack-row-third{
+    order: -2;
+    margin-right: 10px;  
+
+}
+
