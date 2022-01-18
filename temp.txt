@@ -4,12 +4,16 @@ layout inspiration: https://www.google.com/search?q=flex+box+content+card&rlz=1C
 hero video help: https://blog.hubspot.com/website/video-background-css and https://www.solodev.com/blog/web-design/bootstrap/how-to-create-a-hero-with-a-video-background.stml
 https://unsplash.com/photos/F_EooJ3-uTs?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink battery pic
 Photo by <a href="https://unsplash.com/@kellysikkema?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kelly Sikkema</a> on <a href="https://unsplash.com/s/photos/post-stick-note?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  Photo by <a href="https://unsplash.com/@quokkabottle?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">quokkabottles</a> on <a href="https://unsplash.com/s/photos/water-bottle?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  Photo by <a href="https://unsplash.com/@christinhumephoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Christin Hume</a> on <a href="https://unsplash.com/s/photos/tap-on-hands?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  Photo by <a href="https://unsplash.com/@abrkett?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Adam Birkett</a> on <a href="https://unsplash.com/s/photos/phone-charger?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  Photo by <a href="https://unsplash.com/@nathanareboucas?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Nathana Rebouças</a> on <a href="https://unsplash.com/s/photos/google?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  Photo by <a href="https://unsplash.com/@a_d_s_w?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Adrian Swancar</a> on <a href="https://unsplash.com/s/photos/eye-strain?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  Photo by <a href="https://unsplash.com/@siggi81p?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Siegfried Poepperl</a> on <a href="https://unsplash.com/s/photos/hunger?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 
-Crayons:
-Crayons are flammable and will provide about an hour of light as a candle, if you lit the top."
-batteries:
-Bounce batteries to see if their good or bad. Drop them on a table from about 6 inches...
+
 Source:
 https://www.buzzfeed.com/sumedha_bharpilania/life-hacks-that-actually-work
 https://www.lifehack.org/articles/lifestyle/100-life-hacks-that-make-life-easier.html
+http://1000lifehacks.com/4537-2/
