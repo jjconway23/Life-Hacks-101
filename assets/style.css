@@ -348,3 +348,12 @@ Life Hacks Page
 
 }
 
+/*------------
+Media Queries
+------------- */
+@media (max-width:1024px){
+  .main-container {
+    max-width: 100%;
+  }
+}
+@media (max-width:)
