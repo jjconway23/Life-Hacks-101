@@ -235,8 +235,8 @@ Form Styles
   color: red;
   margin: 50px auto;
   border-radius: 4px;
-  padding-bottom: 40px;
-  min-height: 80vh
+  padding-bottom: 30px;
+  min-height: 70vh
 }
 .mini-container label,
 .mini-container h1,
@@ -308,7 +308,7 @@ Life Hacks Page
 ----------------- */
 .top-10-container{
     flex-direction: column;
-    margin: 40px auto;
+    margin: 40px auto 0;
 }
 .top-10-header{
     margin: 20px auto;
@@ -349,7 +349,13 @@ Life Hacks Page
     margin-right: 10px;  
 
 }
-
+.google-scholar-link{
+  color: inherit;
+}
+.google-scholar-link:focus,
+.google-scholar-link:hover{
+  color: blue;
+}
 /*------------
 Media Queries
 ------------- */
@@ -473,6 +479,9 @@ form h2 {
 .card-container img {
   margin: 0 auto;
 }
+.card-body > p {
+  width: 280px;
+}
 .radio-container,
 .checkbox-container {
   width: 90%;
@@ -481,4 +490,15 @@ form h2 {
   max-width: 87%;
   }
 
+}
+@media (max-width:320px){
+  .card{
+    width: 100%;
+  }
+  .container{
+    max-width: 100%;
+  }
+  .card-head img{
+    width: 250px;
+  }
 }
