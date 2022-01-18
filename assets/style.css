@@ -380,7 +380,7 @@ Media Queries
     margin-bottom: 50px;
   }
   .card{
-    min-height: 700px;
+    min-height: 70vh;
     width: 45%;
     margin-bottom: 10px;
   }
@@ -406,4 +406,32 @@ Media Queries
   .form-container{
     max-width: 90%;
   }
+}
+@media (max-width:600px){
+  .card {
+    width: 75%;    
+  }
+  .footer-container {
+    width: 100%;
+  }
+  .footer-list {
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    width: 100%;
+  }
+  .footer-list > li {
+    padding: 25px 20px;
+    text-align: center;    
+  }
+.form-sub-container {
+  flex-direction: column;
+}
+
+.row-one, .row-two {
+  text-align: center;
+  min-width: 54vw;
+}
+form h2 {
+  margin: 10px 0;
+}
 }
