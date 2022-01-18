@@ -224,19 +224,19 @@ Also created a new class called nav-parent. Which was added to the 2nd div withi
 Form Styles
 ----------------- */
 .form-page-heading {
-  padding: 30px 0;
+  padding: 50px 0 30px;
 }
 .form-container {
   text-align: center;
   border-radius: 10px;
-  min-height: 150vh;
 }
 .mini-container {
   background: rgba(33, 37, 41, .8);
   color: red;
-  margin: auto;
+  margin: 50px auto;
   border-radius: 4px;
   padding-bottom: 40px;
+  min-height: 80vh
 }
 .mini-container label,
 .mini-container h1,
@@ -322,6 +322,8 @@ Life Hacks Page
     min-height: 300px;
     width: 100%;
     padding: 10px 5px 10px;
+    margin: 10px 0;
+    
     
 }
 .hack-row-container{
@@ -356,4 +358,52 @@ Media Queries
     max-width: 100%;
   }
 }
-@media (max-width:)
+@media (max-width:800px){
+  .nav-links {
+    flex-direction: column;
+  }
+  .nav-links li {
+    margin-bottom: 10px;
+  }
+  .main-flex-parent {
+    flex-direction: column;
+  }
+  .top-10-container{
+    margin: 0 auto;
+    
+  }  
+  .main-title {
+    top: .8%; 
+    position: static;   
+  }
+  .card-body{
+    margin-bottom: 50px;
+  }
+  .card{
+    min-height: 700px;
+    width: 45%;
+    margin-bottom: 10px;
+  }
+  .hack-row{
+    margin-top: 30px;
+    padding-bottom: 30px;
+  }
+  .hack-row:not(:last-child){
+    border-bottom: 1px solid black;
+  }
+  .hack-row:last-child{
+    margin-top: 40px;
+    min-height: 250px;
+  }
+
+  .footer-site-links {
+    flex-direction: column;
+  }
+  .footer-site-links p {
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  .form-container{
+    max-width: 90%;
+  }
+}
