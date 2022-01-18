@@ -435,3 +435,50 @@ form h2 {
   margin: 10px 0;
 }
 }
+@media (max-width:480px){
+/* .hero-header {
+  height: 50vh;
+}
+
+.cover-text, .nav-links, .nav-links a {
+  display: inline-block;
+}
+
+.navigation .container {
+  flex-wrap: wrap;
+}
+.nav-flex {
+  flex-direction: row;
+}
+.nav-links {
+  flex-direction: row;
+} */
+.nav-parent {
+  flex-wrap: wrap;
+  }
+  .cover-text, .nav-links, .nav-links a {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .nav-links a {
+  margin: 0 10px;
+  margin: 0 0;
+  }
+
+.card-container {
+  flex-direction: column;
+  text-align: center;
+}
+
+.card-container img {
+  margin: 0 auto;
+}
+.radio-container,
+.checkbox-container {
+  width: 90%;
+}
+.container {
+  max-width: 87%;
+  }
+
+}
