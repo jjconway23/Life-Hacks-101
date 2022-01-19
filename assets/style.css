@@ -523,14 +523,21 @@ form h2 {
     border-radius: 3px;
     border: 1px solid #d9d9d6;
     padding: 5px;
-    margin-left: 60px;
+    margin-left: 7%;
     margin-top: 20px;
   }
 
 }
-@media (max-width:320px){
-  *, *::before, *::after {
+@media (max-width: 479px) and (min-width: 320px){
+  *, *::before, *::after :not(.nutella-home-link){
     width: 100%;
+}
+.link-background {
+  margin-left: 19%;
+  margin-top: 30px;
+}
+.cover-text {
+  margin-left: 7%;
 }
   .card{
     width: 100%;
