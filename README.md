@@ -38,8 +38,6 @@ This is a life hacks website, which shares with its users interesting, informati
 
 -   Interactive elements
 
-## Technologies Used
-
 ### Languages Used
 
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
