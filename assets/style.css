@@ -187,12 +187,7 @@ footer ul {
   font-size: 24px;
   color: #d9d9d6;
 }
-.footer-site-links {
-  width: 40%;
-  justify-content: space-between;
-}
 .footer-list {
-  width: 40%;
   justify-content: flex-start;
 }
 .footer-list > li {
@@ -340,6 +335,13 @@ Life Hacks Page
   flex-direction: column;
   width: auto;
 }
+.card-container img {
+  height: 330px;
+  width: 220px;
+  object-fit: cover;
+}
+
+
 .hack-row-first {
   padding: 10px 5px 10px;
 }
@@ -421,7 +423,6 @@ Media Queries
     width: 100%;
   }
   .footer-list {
-    flex-wrap: wrap;
     justify-content: flex-end;
     width: 100%;
   }
@@ -472,9 +473,6 @@ Media Queries
   .nav-links li {
     margin: 5px;
   }
-  .nav-links {
-    margin-right: 325px;
-  }
   .card-container {
     flex-direction: column;
     text-align: center;
@@ -482,9 +480,6 @@ Media Queries
 
   .card-container img {
     margin: 0 auto;
-  }
-  .card-body > p {
-    width: 280px;
   }
   .radio-container,
   .checkbox-container {
@@ -513,22 +508,25 @@ Media Queries
     border-radius: 3px;
     border: 1px solid #d9d9d6;
     padding: 5px;
-    margin-left: 7%;
     margin-top: 20px;
+    /* margin-right: 16rem; */
   }
+
 }
-@media (max-width: 479px) and (min-width: 320px) {
-  *,
-  *::before,
-  *::after :not(.nutella-home-link) {
-    width: 100%;
+@media (max-width: 479px) and (min-width: 320px){
+  nav{
+    text-align: center;
+    margin: 0 auto;
   }
-  .link-background {
-    margin-left: 19%;
-    margin-top: 30px;
-  }
+  .navigation {
+    background: #212529;
+}
+.hero-video {
+  display: none;
+}
   .cover-text {
-    margin-left: 7%;
+    color: white;
+    text-align: center;
   }
   .card {
     width: 100%;
@@ -539,4 +537,27 @@ Media Queries
   .card-head img {
     width: 250px;
   }
+  .social-links{
+    margin: 0 auto;
+  }
+  .footer-list{
+    flex-wrap: nowrap;
+  }
+.card-head > img {
+    margin: 5% auto 5%;
+    width: 200px;
+}
+
+
+.card-body > p {
+    margin: 10px 0 30px 0;
+    text-align: center;
+}
+.card-body {
+    margin-bottom: 50px;
+    padding: 0 20px;
+}
+.colored-background{
+  background: #212529;
+}
 }
