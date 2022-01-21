@@ -1,6 +1,6 @@
 <h1 align="center">Life Hacks 101</h1>
 
-[View the live project here.](https://jjconway23.github.io/html-css-project-1/life-hacks.html)
+[View the live project here.](https://jjconway23.github.io/html-css-project-1/index.html)
 
 This is a life hacks website, which shares with its users interesting, informative and some educational life hacks. It has a home page, a dedicated page with 10 different life hacks and a contact us page. The contact us page is where visitors to the site can get in sign up to get alerted when a new life hack is added. It was designed responsively so devices from phones to monitors can view them.
 
@@ -33,10 +33,40 @@ This is a life hacks website, which shares with its users interesting, informati
         -   I have a large hero video that covers the screen on the home landing page. The video chosen will most definitely catch the eye of the visitors to the site. It give will give the site a modern and creative feel.
 
 ## Features
+### Home Page
 
--   Responsive on all device sizes
+#### Navigation
+- Positioned at the top of the page. On the left it has the site name along Life Hacks 101 along with the slogan sligtly below it. 
+- To the right it has the three main pages of the site. Home Life Hacks and Sign Up. With an underline under the current page the visitor is on.
+<img src="images/read-me-pictures/hero-and-nav-screenshot.png">
 
--   Interactive elements
+#### Trending Life Hacks Section  
+- This section has three different life hacks showing. Each life hack has a picture, title and a description.
+- Each is accompanied by a read more button. Which will take them to the life-hacks.index page and to the life hack they clicked read more on.
+<img src="images/read-me-pictures/trending-life-hacks.png">
+
+#### Life Hacks Page
+### Navigation
+- Every other page except from the home page has a standard nav bar without the hero video.
+- The functionality and features of the header and nav remains the same.
+<img src="images/read-me-pictures/alternative-nav-bar.png">
+
+### Life Hacks Content
+- Life hacks page consists of 10 different life hacks
+- Each life hack has a picture, heading and paragraph detailing what the life hack is about.
+- Some life hacks also include the use of font awesome fonts for added emphasis.
+<img src="images/read-me-pictures/life-hacks-page-screenshot.png">
+
+#### Sign Up Page
+- The sign up page allows visitors to the site to and get alerts when a new life hack is added to the site.
+- It consists of fields for visitor to enter; full name, email, phone number, gender and age group.
+- It has a submit button which is responsive and has an animation which scales the size slightly when you hover over it.
+<img src="images/read-me-pictures/sign-up-form.png">
+
+#### Footer
+- The footer has links which use font awesome fonts for facebook, youtube, twitter and instagram accounts.
+- When links are clicked on they open our social media accounts in a new tab.
+<img src="images/read-me-pictures/footer.png">
 
 ### Languages Used
 
@@ -59,7 +89,7 @@ This is a life hacks website, which shares with its users interesting, informati
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
 -   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results]()
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](http://jigsaw.w3.org/css-validator/validator$link)
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](http://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjjconway23.github.io%2Fhtml-css-project-1%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=)
 
 ### Testing User Stories from User Experience (UX) Section
 
