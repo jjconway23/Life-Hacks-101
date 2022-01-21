@@ -4,7 +4,7 @@
 
 This is a life hacks website, which shares with its users interesting, informative and some educational life hacks. It has a home page, a dedicated page with 10 different life hacks and a contact us page. The contact us page is where visitors to the site can get in sign up to get alerted when a new life hack is added. It was designed responsively so devices from phones to monitors can view them.
 
-<h2 align="center"><img src="images/read-me-pictures/alternative-nav-bar.png"></h2>
+<h2 align="center"><img src="images/read-me-pictures/responsive"></h2>
 
 ## User Experience (UX)
 
