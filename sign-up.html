@@ -8,12 +8,12 @@
     <meta name="description"
         content="Life hacks website sharing tips, tricks and advice that can be used in everyday life">
     <meta name="keywords" content="Life tips, tricks, advice for everyday life">
+    <title>Sign Up | Life Hacks 101</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&family=Roboto&display=swap"
         rel="stylesheet">
-    <link href="assets/style.css" rel="stylesheet">
-    <title>Sign Up</title>
+    <link href="assets/style.css" rel="stylesheet">    
 </head>
 
 <body>
@@ -45,69 +45,70 @@
                 <form action="https://formdump.codeinstitute.net/" method="POST" class="form-class flex-class">
                     <h2 class="form-title">Registration</h2>
                     <div class="flex-class form-sub-container">
-                        <div class="row-one">
-                            <label for="fname"><strong>First Name:</strong></label><br>
-                            <input type="text" name="first-name" id="fname" placeholder="First Name" required>
+                            <div class="row-one">
+                                <label for="fname"><strong>First Name:</strong></label><br>
+                                <input type="text" name="first-name" id="fname" placeholder="First Name" required>
+                            </div>
+                            <div class="row-one">
+                                <label for="lname"><strong>Last Name:</strong></label><br>
+                                <input type="text" name="last-name" id="lname" placeholder="Last Name" required><br>
+                            </div>
                         </div>
-                        <div class="row-one">
-                            <label for="lname"><strong>Last Name:</strong></label><br>
-                            <input type="text" name="last-name" id="lname" placeholder="Last Name" required><br>
+                        <div class="flex-class form-sub-container">
+                            <div class="row-two">
+                                <label for="email"><strong>Email:</strong></label><br>
+                                <input type="email" name="email" id="email" placeholder="example@example.com" required>
+                            </div>
+                            <div class="row-two">
+                                <label for="pnumber"><strong>Phone Number:</strong></label><br>
+                                <input type="text" name="number" id="pnumber" placeholder="Enter Your Number" required><br>
+                            </div>
                         </div>
-                    </div>
-                    <div class="flex-class form-sub-container">
-                        <div class="row-two">
-                            <label for="email"><strong>Email:</strong></label><br>
-                            <input type="email" name="email" id="email" placeholder="example@example.com" required>
-                        </div>
-                        <div class="row-two">
-                            <label for="pnumber"><strong>Phone Number:</strong></label><br>
-                            <input type="text" name="number" id="number" placeholder="Enter Your Number" required><br>
-                        </div>
-                    </div>
-                    <h2>Gender</h2>
-                    <div class="flex-class radio-container">
-                        <div class="row-three">
-                            <input type="radio" name="gender" id="male" value="male" required>
-                            <label for="male">Male</label>
-                        </div>
-                        <div class="row-three">
-                            <input type="radio" name="gender" id="female" value="Female" required>
-                            <label for="female">Female</label>
-                        </div>
-                        <div class="row-three">
-                            <input type="radio" name="gender" id="chose-not-to-answer" value="Prefer Not to say"
-                                required>
-                            <label for="chose-not-to-answer">Prefer Not to Say</label> <br>
+                        <h2>Gender</h2>
+                        <div class="flex-class radio-container">
+                            <div class="row-three">
+                                <input type="radio" name="gender" id="male" value="male" required>
+                                <label for="male">Male</label>
+                            </div>
+                            <div class="row-three">
+                                <input type="radio" name="gender" id="female" value="Female" required>
+                                <label for="female">Female</label>
+                            </div>
+                            <div class="row-three">
+                                <input type="radio" name="gender" id="chose-not-to-answer" value="Prefer Not to say"
+                                    required>
+                                <label for="chose-not-to-answer">Prefer Not to Say</label> <br>
+                            </div>
+
                         </div>
 
-                    </div>
-
-                    <h2>Age</h2>
-                    <div class="flex-class checkbox-container">
-                        <div class="row-four">
-                            <input type="checkbox" name="age" id="18-25" value="18-25" required>
-                            <label for="18-25">18-25</label>
+                        <h2>Age</h2>
+                        <div class="flex-class checkbox-container">
+                            <div class="row-four">
+                                <input type="checkbox" name="age" id="18-25" value="18-25">
+                                <label for="18-25">18-25</label>
+                            </div>
+                            <div class="row-four">
+                                <input type="checkbox" name="age" id="26-35" value="26-35">
+                                <label for="26-35">26-35</label>
+                            </div>
+                            <div class="row-four">
+                                <input type="checkbox" name="age" id="36-45" value="36-45">
+                                <label for="36-45">36-45</label>
+                            </div>
+                            <div class="row-four">
+                                <input type="checkbox" name="age" id="45-55" value="45-55">
+                                <label for="45-55">45-55</label>
+                            </div>
+                            <div class="row-four">
+                                <input type="checkbox" name="age" id="55+" value="55+">
+                                <label for="55+">55+</label>
+                            </div>
                         </div>
-                        <div class="row-four">
-                            <input type="checkbox" name="age" id="26-35" value="26-35" required>
-                            <label for="26-35">26-35</label>
-                        </div>
-                        <div class="row-four">
-                            <input type="checkbox" name="age" id="36-45" value="36-45" required>
-                            <label for="36-45">36-45</label>
-                        </div>
-                        <div class="row-four">
-                            <input type="checkbox" name="age" id="45-55" value="45-55" required>
-                            <label for="45-55">45-55</label>
-                        </div>
-                        <div class="row-four">
-                            <input type="checkbox" name="age" id="55+" value="55+" required>
-                            <label for="55+">55+</label>
-                        </div>
-                    </div>
-                    <input type="submit" value="Submit" class="form-submit-button">
-            </div>
-            </form>
+                        <input type="submit" value="Submit" class="form-submit-button">
+            
+                </form>
+            </div>    
         </div>
     </main>
     <!-- Main End -->

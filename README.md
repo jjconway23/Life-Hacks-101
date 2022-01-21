@@ -88,7 +88,13 @@ This is a life hacks website, which shares with its users interesting, informati
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results]()
+### HTML Validator
+- <img src="images/read-me-pictures/index-validator.png">
+- <img src="images/read-me-pictures/life-hacks-validator.png">
+- <img src="images/read-me-pictures/sign-up-validator.png">
+
+### CSS Validator
+
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](http://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjjconway23.github.io%2Fhtml-css-project-1%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=)
 
 ### Testing User Stories from User Experience (UX) Section
@@ -127,7 +133,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Further Testing
 
--   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
+-   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge browsers.
 -   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone 7, iPhone 12.
 -   A large amount of testing was done to ensure that all pages were linking correctly.
 -   Elderly family members were asked to attempt to navigate through site and done so with ease.
