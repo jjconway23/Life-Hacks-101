@@ -562,4 +562,8 @@ Media Queries
 .colored-background{
   background: #212529;
 }
+.form-container, .mini-container, .form-class, h1{
+  border-radius: 0px;
+  background: #45484b;
+}
 }
