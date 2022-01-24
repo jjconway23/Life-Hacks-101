@@ -520,6 +520,20 @@ Media Queries
     text-align: center;
     margin: 0 auto;
   }
+  .nav-links {
+    background: #212529;
+    width: 150px;
+    border-radius: 3px;
+    border: 1px solid #d9d9d6;
+    padding: 5px;
+    margin-top: 20px;
+  }
+  .nav-parent {
+    background: #212529;
+  }
+  .nav-links a {
+    color: white;
+  }
   .navigation {
     background: #212529;
 }
@@ -549,8 +563,12 @@ Media Queries
     margin: 5% auto 5%;
     width: 200px;
 }
-
-
+.top-10-container {
+  padding: 0 10px;
+ }
+ .hack-row:last-child {
+  margin-bottom: 0
+}
 .card-body > p {
     margin: 10px 0 30px 0;
     text-align: center;
@@ -566,4 +584,8 @@ Media Queries
   border-radius: 0px;
   background: #45484b;
 }
+.form-container {
+  padding: 20px 10px;
+}
+
 }
