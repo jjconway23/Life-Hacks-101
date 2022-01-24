@@ -49,7 +49,7 @@ This is a life hacks website, which shares with its users interesting, informati
 ### Navigation
 - Every other page except from the home page has a standard nav bar without the hero video.
 - The functionality and features of the header and nav remains the same.
-<img src="images/read-me-pictures/alternative-nav-bar.png">
+<img src="images/read-me-pictures/alternative-nav-bar.PNG">
 
 ### Life Hacks Content
 - Life hacks page consists of 10 different life hacks
@@ -89,12 +89,11 @@ This is a life hacks website, which shares with its users interesting, informati
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
 ### HTML Validator
-- <img src="images/read-me-pictures/index-validator.png">
-- <img src="images/read-me-pictures/life-hacks-validator.png">
-- <img src="images/read-me-pictures/sign-up-validator.png">
+-   [W3C HTML Validator](https://validator.w3.org/) - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjjconway23.github.io%2Fhtml-css-project-1%2Findex.html)
+
 
 ### CSS Validator
-
+https://validator.w3.org/nu/?doc=https%3A%2F%2Fjjconway23.github.io%2Fhtml-css-project-1%2Findex.html
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](http://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjjconway23.github.io%2Fhtml-css-project-1%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=)
 
 ### Testing User Stories from User Experience (UX) Section
@@ -140,7 +139,6 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Known Bugs
 
--   On some mobile devices the nav bar is pushed slightly more inward. Corrected by reducing margin slightly.
 -   Submit button on iPhone was functional but was blue instead of intended color seen on rest of devices
 
 ## Deployment

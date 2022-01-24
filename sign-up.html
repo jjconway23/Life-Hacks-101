@@ -1,138 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Life hacks website sharing tips, tricks and advice that can be used in everyday life" />
+        <meta name="keywords" content="Life tips, tricks, advice for everyday life" />
+        <title>Sign Up | Life Hacks 101</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&family=Roboto&display=swap" rel="stylesheet" />
+        <link href="assets/style.css" rel="stylesheet" />
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Life hacks website sharing tips, tricks and advice that can be used in everyday life">
-    <meta name="keywords" content="Life tips, tricks, advice for everyday life">
-    <title>Sign Up | Life Hacks 101</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&family=Roboto&display=swap"
-        rel="stylesheet">
-    <link href="assets/style.css" rel="stylesheet">    
-</head>
+    <body>
+        <header>
+            <div>
+                <div class="container flex-class nav-parent">
+                    <a href="index.html" class="cover-text">
+                        <span class="logo-text logo-text-title">Life Hacks 101</span>
 
-<body>
-    <header>
-        <div>
-            <div class="container flex-class nav-parent">
-                <a href="index.html" class="cover-text">
-                    <span class="logo-text logo-text-title">Life Hacks 101</span>
-
-                    <p class="logo-text logo-text-para">New Life Hacks Added Daily</p>
-                </a>
-                <nav class="nav-flex">
-                    <ul class="nav-links flex-class">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="life-hacks.html">Life Hacks</a></li>
-                        <li><a href="sign-up.html" class="current-page">Sign Up</a></li>
-                    </ul>
-                </nav>
+                        <p class="logo-text logo-text-para">New Life Hacks Added Daily</p>
+                    </a>
+                    <nav class="nav-flex">
+                        <ul class="nav-links flex-class">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="life-hacks.html">Life Hacks</a></li>
+                            <li><a href="sign-up.html" class="current-page">Sign Up</a></li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
-        </div>
-
-    </header>
-    <!-- Header End -->
-    <main>
-        <div class="container form-container">
-            <div class="mini-container">
-                <h1 class="form-page-heading">Share Your Life Hacks with the World <i class="fas fa-globe-europe"></i>
-                </h1>
-                <form action="https://formdump.codeinstitute.net/" method="POST" class="form-class flex-class">
-                    <h2 class="form-title">Registration</h2>
-                    <div class="flex-class form-sub-container">
+        </header>
+        <!-- Header End -->
+        <main>
+            <div class="container form-container">
+                <div class="mini-container">
+                    <h1 class="form-page-heading">Share Your Life Hacks with the World <i class="fas fa-globe-europe"></i></h1>
+                    <form action="https://formdump.codeinstitute.net/" method="POST" class="form-class flex-class">
+                        <h2 class="form-title">Registration</h2>
+                        <div class="flex-class form-sub-container">
                             <div class="row-one">
-                                <label for="fname"><strong>First Name:</strong></label><br>
-                                <input type="text" name="first-name" id="fname" placeholder="First Name" required>
+                                <label for="fname"><strong>First Name:</strong></label><br />
+                                <input type="text" name="first-name" id="fname" placeholder="First Name" required />
                             </div>
                             <div class="row-one">
-                                <label for="lname"><strong>Last Name:</strong></label><br>
-                                <input type="text" name="last-name" id="lname" placeholder="Last Name" required><br>
+                                <label for="lname"><strong>Last Name:</strong></label><br />
+                                <input type="text" name="last-name" id="lname" placeholder="Last Name" required /><br />
                             </div>
                         </div>
                         <div class="flex-class form-sub-container">
                             <div class="row-two">
-                                <label for="email"><strong>Email:</strong></label><br>
-                                <input type="email" name="email" id="email" placeholder="example@example.com" required>
+                                <label for="email"><strong>Email:</strong></label><br />
+                                <input type="email" name="email" id="email" placeholder="example@example.com" required />
                             </div>
                             <div class="row-two">
-                                <label for="pnumber"><strong>Phone Number:</strong></label><br>
-                                <input type="text" name="number" id="pnumber" placeholder="Enter Your Number" required><br>
+                                <label for="pnumber"><strong>Phone Number:</strong></label><br />
+                                <input type="text" name="number" id="pnumber" placeholder="Enter Your Number" required /><br />
                             </div>
                         </div>
                         <h2>Gender</h2>
                         <div class="flex-class radio-container">
                             <div class="row-three">
-                                <input type="radio" name="gender" id="male" value="male" required>
+                                <input type="radio" name="gender" id="male" value="male" required />
                                 <label for="male">Male</label>
                             </div>
                             <div class="row-three">
-                                <input type="radio" name="gender" id="female" value="Female" required>
+                                <input type="radio" name="gender" id="female" value="Female" required />
                                 <label for="female">Female</label>
                             </div>
                             <div class="row-three">
-                                <input type="radio" name="gender" id="chose-not-to-answer" value="Prefer Not to say"
-                                    required>
-                                <label for="chose-not-to-answer">Prefer Not to Say</label> <br>
+                                <input type="radio" name="gender" id="chose-not-to-answer" value="Prefer Not to say" required />
+                                <label for="chose-not-to-answer">Prefer Not to Say</label> <br />
                             </div>
-
                         </div>
 
                         <h2>Age</h2>
                         <div class="flex-class checkbox-container">
                             <div class="row-four">
-                                <input type="checkbox" name="age" id="18-25" value="18-25">
+                                <input type="checkbox" name="age" id="18-25" value="18-25" />
                                 <label for="18-25">18-25</label>
                             </div>
                             <div class="row-four">
-                                <input type="checkbox" name="age" id="26-35" value="26-35">
+                                <input type="checkbox" name="age" id="26-35" value="26-35" />
                                 <label for="26-35">26-35</label>
                             </div>
                             <div class="row-four">
-                                <input type="checkbox" name="age" id="36-45" value="36-45">
+                                <input type="checkbox" name="age" id="36-45" value="36-45" />
                                 <label for="36-45">36-45</label>
                             </div>
                             <div class="row-four">
-                                <input type="checkbox" name="age" id="45-55" value="45-55">
+                                <input type="checkbox" name="age" id="45-55" value="45-55" />
                                 <label for="45-55">45-55</label>
                             </div>
                             <div class="row-four">
-                                <input type="checkbox" name="age" id="55+" value="55+">
+                                <input type="checkbox" name="age" id="55+" value="55+" />
                                 <label for="55+">55+</label>
                             </div>
                         </div>
-                        <input type="submit" value="Submit" class="form-submit-button">
-            
-                </form>
-            </div>    
-        </div>
-    </main>
-    <!-- Main End -->
-    <footer>
-        <div class=" container ">
-            <div class="flex-class footer-container colored-background">
-                <div class="social-links">
-                    <ul class="flex-class footer-list">
-                        <li><a class="footer-links" href="https://facebook.com" target="_blank" rel="noopener"
-                                aria-label="Visit Our Facebook Page"><i class="fab fa-facebook"></i></a></li>
-                        <li><a class="footer-links" href="https://twitter.com/" target="_blank" rel="noopener"
-                                aria-label="Visit Our Twitter Page"><i class="fab fa-twitter"></i></a></li>
-                        <li><a class="footer-links" href="https://instagram.com" target="_blank" rel="noopener"
-                                aria-label="Visit Our Instagram Page"><i class="fab fa-instagram"></i></a></li>
-                        <li><a class="footer-links" href="https://youtube.com" target="_blank" rel="noopener"
-                                aria-label="Visit Our Youtube Page"><i class="fab fa-youtube"></i></a></li>
-                    </ul>
+                        <input type="submit" value="Submit" class="form-submit-button" />
+                    </form>
                 </div>
             </div>
-        </div>
-    </footer>
-    <!-- Footer End -->
-    <!-- Font Awesome Script Tag -->
-    <script src="https://kit.fontawesome.com/515dd64992.js" crossorigin="anonymous"></script>
-</body>
-
+        </main>
+        <!-- Main End -->
+        <footer>
+            <div class="container">
+                <div class="flex-class footer-container colored-background">
+                    <div class="social-links">
+                        <ul class="flex-class footer-list">
+                            <li>
+                                <a class="footer-links" href="https://facebook.com" target="_blank" rel="noopener" aria-label="Visit Our Facebook Page"><i class="fab fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a class="footer-links" href="https://twitter.com/" target="_blank" rel="noopener" aria-label="Visit Our Twitter Page"><i class="fab fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a class="footer-links" href="https://instagram.com" target="_blank" rel="noopener" aria-label="Visit Our Instagram Page"><i class="fab fa-instagram"></i></a>
+                            </li>
+                            <li>
+                                <a class="footer-links" href="https://youtube.com" target="_blank" rel="noopener" aria-label="Visit Our Youtube Page"><i class="fab fa-youtube"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer End -->
+        <!-- Font Awesome Script Tag -->
+        <script src="https://kit.fontawesome.com/515dd64992.js" crossorigin="anonymous"></script>
+    </body>
 </html>
